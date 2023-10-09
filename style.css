@@ -475,11 +475,6 @@ margin-top: -10px;
 {
     padding-top: 10%;
 }
-/* #review2
-{
-    margin-top: -2%;
-    margin-left: 22%;
-} */
 .review .review-heading
 {
     color: white;
@@ -668,6 +663,7 @@ margin-top: -10px;
 { 
     .social ul{display: none;}
     .home .card{font-size: 8px;}
+    .frontpage{background-image: url(./images/responsive.png);}
     .about{height: auto;}
     .about .boxes{display: none;}
     .heading .para{width: 60%;}
@@ -688,13 +684,13 @@ margin-top: -10px;
     .package{padding-top: 200px;}
     .review .review-1{width: 70%; margin-left: 15%;}
     .review .review-heading{margin-top: 10%; width: 70%;}
+    .books .booking{ margin-left: -20%; }
     .blogs{height: 150vh;}
     .blog .books{width: 70%; margin-left: 15%;}
     .books .b-heading{margin-top: 5%; padding-left: -30%;}
     .books .call,.email{display: none;}
     .footer{padding-top: 20%; height: auto;}
-    /* .navbar{background-color: white; }
-    .navbar .li{color: black;} */
+    .footer .heading{width: 69%;}
     .navbar-toggler-icon{background-color: orangered;}
     
     

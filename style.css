@@ -1,0 +1,702 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Teko', sans-serif;
+   
+    
+}
+body
+{
+    overflow-x: hidden;
+}
+
+#nav-bar
+{
+
+    /* position: sticky; */
+    top: 0;
+    z-index: 10;
+   
+}
+.navbar{
+background-color: transparent;
+padding: 0;
+
+}
+
+.navbar-nav {
+    margin-left: 10%;
+}
+.navbar-nav li{
+padding: 0 10px;
+
+
+}
+
+.navbar-nav li
+{
+    color: #fff;
+    font-weight: 600;
+    
+}
+.navbar-nav a:hover
+{
+    background-color: orangered;
+    border-radius: 7px;
+}
+
+
+.frontpage
+{
+    background: url(./images/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Croissant One', cursive;
+    
+    
+}
+
+.frontpage .logo img
+{
+    width: 33%;
+    height: 12%;
+}
+.frontpage .logo{
+    margin-left: 10%;
+
+}
+.frontpage .container h6
+{
+color: orangered;
+}
+.navbar{
+    font-size: 14px;
+}
+.social
+{
+    margin-left: -70px;
+}
+.social ul
+{
+    display: flex;
+    margin-top: 12%;
+   
+}
+
+.frontpage .container a{
+   
+    color: white;
+    background-color: orangered;
+    padding: 5px 20px;
+    display: inline-block;
+    /* margin-top: 15px; */
+    text-decoration: none;
+    font-size: 14px;
+    
+    
+}
+.frontpage .container a:hover{
+    background-color: rgb(255, 255, 255);
+    color: orangered;
+    
+}
+.frontpage .container .i:hover
+{
+    color: orangered;
+}
+.home{
+    overflow-x: hidden;
+}
+.home .heading
+{
+    margin-left: 10%; 
+    margin-top: -2%;
+} 
+.home .heading p{
+    font-size: 15px;
+}
+.home .heading .subhead
+{
+    font-size: 12px;
+}
+/* .home .heading .line
+{
+    width: 100px;
+    padding-top: -65%;
+    position: inherit;
+} */
+
+.home .box-content
+{
+padding-top: 3%;
+margin-left: 15%;
+}
+.home .box-content .card-text{
+    font-size: 11px;
+}
+.home .box-content .fa-solid
+{
+    padding-left: 10%;
+    padding-top: 5%;
+    font-size: 19px;
+}
+
+.home h1{
+    font-weight: 550;
+}
+/* .home .box-content .row
+{
+    row-gap: 30px;
+
+} */
+
+
+.home .card p{
+    font-size: 12px;
+}
+
+
+/* about */
+
+.about{
+    
+    background: url(./images/about.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 105vh;
+}
+
+.about .boxes
+{
+    margin-left: 65%;
+    margin-top: 100%;
+}
+
+.about .boxes h5{
+    color: orangered;
+}
+.about .boxes p
+{
+    padding-left: 40px;
+}
+.about .boxes .box1
+{
+    background-color: rgb(20,20, 46);
+    width: 130%;
+    height: 100%;
+    font-size: 12px;
+    color: white;
+}
+.about .boxes .box1 i{
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.about img
+{
+    width: 60%;
+    height: 53%;
+    margin-top: 75%;
+    margin-left: 70px;
+}
+.about .abt-content{
+    padding-top: 40%;
+    width: 50%;
+    color: white;
+}
+
+.about .abt-content .abt{
+    color: orangered;
+}
+
+.about .abt-content p{
+    font-size: 12px;
+    line-height: 18px;
+}
+.about .abt-content a
+{
+    color: white;
+    background-color: orangered;
+    padding: 8px 20px;
+    display: inline-block;
+    /* margin-top: 15px; */
+    text-decoration: none;
+    font-size: 12px;
+    width: 120px;
+    height: 35px;
+    margin-top: 10%;
+}
+.about .abt-content a:hover
+{
+    background-color: white;
+    color: orangered;
+}
+/* destination */
+
+.location
+{
+    background: url(./images/location.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 105vh;
+}
+.location .choose-location .l-heading{
+    margin-left: 33%;
+    padding-top: 5%;
+    color: white;
+}
+.choose-location .l-heading span{
+    color: orangered;
+    margin-left: 18%;
+}
+.choose-location .loc-images
+{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 14%;
+}
+.choose-location .card{
+    background: transparent;
+}
+.loc-images .card-body{
+    color: white;
+    margin-top: -30%;
+}
+
+.loc-images .card:hover
+{
+   background-color: rgba(0, 0, 0, 0.04);
+   color: black;
+}
+.loc-images .card-body h6{
+    font-size: 13px;
+}
+.loc-images .card-body p{
+    font-size: 10px;
+}
+/* Packages */
+
+
+
+.packages
+{
+    background: url(./images/destination.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 105vh;
+}
+.packages .package .p-heading{
+    margin-left: 35%;
+    padding-top: 5%;
+    color: white;
+}
+
+.packages .package span
+{
+    color: orangered;
+    margin-left: 20%;
+}
+
+.package .card 
+{
+    background: rgb(22, 22, 28);
+    color: white;
+}
+.package .card .card-title
+{
+color: white;
+}
+.package .card .card-body i{
+    color: orangered;
+}
+.package .card p{
+    font-size: 14px;
+}
+
+.package .card a
+{
+    color: white;
+    background-color: orangered;
+    padding: 5px 20px;
+    display: inline-block;
+    /* margin-top: 15px; */
+    text-decoration: none;
+    font-size: 10px;
+    width: 90px;
+    height: 30px;
+    
+}
+.package .card a:hover
+{
+    background-color: white;
+    color: orangered;
+}
+.package .card .card-body .review{
+color: rgb(104, 103, 103);
+margin-left: 10px;
+}
+.package .card .card-text
+{
+   
+    margin-top: 15px;
+    margin-right: 160px;
+}
+.package .card .p-btn
+{
+    margin-left: 90px;
+    margin-top: -42px;
+}
+.package .pckg{
+margin-top: 7%;
+margin-left: 20%;
+}
+
+/* Why choos us*/
+
+.choose-us
+{
+    background: url(./images/disc.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 105vh;
+}
+.choose-us .heading{
+    margin-left: 15%;
+    color: white;
+    width: 60%;
+}
+.choose-us .heading h6
+{
+ color: orangered;
+ margin-left: 18%;
+
+}
+.choose-us .heading h2
+{
+    margin-left: 18%;
+}
+.choose-us .choose-content{
+    margin-left: 8%;
+}
+.choose-us .choose-content p{
+    font-size: 14px;
+    width: 70% ;
+}
+
+.choose-us .choose-content .guid
+{
+    width: 500px;
+    margin-top: 40px;
+}
+
+.choose img
+{
+width: 100%;
+}
+.choose .choose-img
+{   width: 30%;
+    margin-left: -10%;
+    margin-top: 10%;
+    
+}
+
+.choose #choose-2
+{
+width: 80%;
+height: 230px;
+margin-top: -20%;
+margin-left: -30%;
+}
+.choose #choose-1
+{
+    width: 90%;
+    height: 70%;
+}
+
+/* Reviews */
+
+.reviews
+{
+    background: url(./images/review.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 105vh;
+}
+
+.reviews .review-1
+{
+    color: white;
+    width: 20%;
+    background-color: rgb(38, 26, 50);
+  border-radius: 5px;
+  margin-left: 25%;
+ 
+}
+.reviews .review-1 p
+{
+    font-size: 11px;
+    line-height: 15px;
+    padding-right: -19px;
+    margin-left: 4px;
+}
+.reviews img
+{
+width: 30px;
+height: 30px;
+border-radius: 50%;
+
+}
+.reviews .review-1 .review-img
+{
+
+padding-left: 12px;
+}
+.reviews .review-1 .review-data
+{
+padding-left: 60px;
+margin-top: -25px;
+
+}
+.review-1 .review-data .role
+{
+margin-top: -10px;
+
+}
+.review .review-content
+{
+    padding-top: 10%;
+}
+/* #review2
+{
+    margin-top: -2%;
+    margin-left: 22%;
+} */
+.review .review-heading
+{
+    color: white;
+    width: 25%;
+    align-items: end;
+    float: right;
+    margin-top: -28%;
+    margin-right: 17%;
+    font-size: 14px;
+}
+.review .review-heading .testi
+{
+    color: orangered;
+}
+.review .review-heading span
+{
+    color: rgb(84, 83, 83);
+}
+.review .review-heading .rev{
+    padding-top: 10px;
+}
+
+/* Blogs */
+
+.blogs
+{
+    background: url(./images/blog.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110vh;
+}
+.blogs .blog .b-heading{
+    margin-left: 35%;
+    padding-top: 2%;
+    color: white;
+}
+.blogs .blog .b-heading h2
+{
+    margin-left: 3%;
+}
+.blogs .blog span
+{
+    color: orangered;
+    margin-left: 20%;
+}
+
+.blog .news
+{
+    margin-top: 6%;
+    margin-left: 22%;
+}
+.blog p{font-size: 12px; margin-top: -20px;}
+.blog a{
+    background-color: orangered;
+    color: white;
+    font-size: 12px;
+    margin-top: -120%;
+    margin-left: 20%;
+}
+.blogs .card span{
+    margin-left: 10px;
+    color: white;
+}
+.blogs .card
+{
+    background-color: rgba(255, 255, 255, 0.04);
+    color: white;
+}
+.blogs .card h6{
+    padding-top: 30px;
+}
+
+.book
+{
+    color: white;
+    background-color:transparent;
+}
+
+.books
+{
+    width: 70%;
+    /* height: 50vh; */
+    margin-left: 15%;
+    margin-top: 5%;
+    
+    background-color: rgb(34, 28, 41);
+}
+.books .b-heading
+{
+    padding-left: -1%;
+    margin-top: 9%;
+    line-height: 60px;
+    
+}
+.books .call
+{
+    border: 2px rgb(255, 255, 255) solid;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin-top: 3%;
+    cursor: pointer;
+
+}
+.books .call:hover{
+    background: rgba(0, 0, 0, 0.60);
+}
+.books .call i{
+    padding-left: 50px;
+    padding-top: 3%;
+}
+.books .call h6{
+    padding-left: 30px;
+    padding-top: 5px;
+}
+.books .call p{
+    font-size: 10px;
+    padding-left: 15px;
+}
+
+.books .email
+{
+    border: 2px white solid;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin-top: 3%;
+    cursor: pointer;
+
+}
+.books .email:hover{
+    background: rgba(0, 0, 0, 0.60);
+}
+
+.books .email i{
+    padding-left: 50px;
+    padding-top: 10%;
+}
+.books .email h6{
+    padding-left: 15px;
+    padding-top: 15px;
+}
+/* footer */
+
+.footer
+{
+    background: url(./images/footer.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 80vh;
+}
+.foot{
+    width: 70%;
+    margin-left: 16%;
+    padding-top: 10%;
+}
+.footer p{
+    font-size: 14px;
+}
+.footer .heading{
+    width: 30%;
+    padding-left: 10%;
+}
+.footer .foot a{
+    text-decoration: none;
+}
+.footer .foot a:hover{
+    
+    text-decoration: underline;
+    /* font-size: medium; */
+}
+
+.footer .foot ul{
+    list-style-type: none;
+}
+
+
+
+/* Media query------Responsive */
+
+
+@media (max-width: 600px)
+{ 
+    .social ul{display: none;}
+    .home .card{font-size: 8px;}
+    .about{height: auto;}
+    .about .boxes{display: none;}
+    .heading .para{width: 60%;}
+    .reviews{height: 130vh;}
+    .about .abt-img{display: none;}
+    .about .abt-content{margin-left: -65%; width: 100%; margin-top: 150px;}
+    .about .abt-content a{margin-top: -10px;}
+    .choose-us{height: 130vh;}
+    .choose-location span{margin-right: -300px;}
+    .choose-location .loc-images{margin-left: 26%;}
+    .choose-location .loc-images #card4{display: none;}
+    .package .pckg #cardnone{display: none;}
+    .choose .choose-img{margin-top: 170%; margin-left: -38%;}
+    .choose .choose-img #choose-1{width: 500px; height: 100px;}
+    .choose .choose-img #choose-2{width: 500px; height: 100px;}
+    .choose .choose-content .guid{width: 100%;}
+    .packages{height: 150vh;}
+    .package{padding-top: 200px;}
+    .review .review-1{width: 70%; margin-left: 15%;}
+    .review .review-heading{margin-top: 10%; width: 70%;}
+    .blogs{height: 150vh;}
+    .blog .books{width: 70%; margin-left: 15%;}
+    .books .b-heading{margin-top: 5%; padding-left: -30%;}
+    .books .call,.email{display: none;}
+    .footer{padding-top: 20%; height: auto;}
+    /* .navbar{background-color: white; }
+    .navbar .li{color: black;} */
+    .navbar-toggler-icon{background-color: orangered;}
+    
+    
+}
+

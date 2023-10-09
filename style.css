@@ -552,12 +552,13 @@ margin-top: -10px;
 {
     color: white;
     background-color:transparent;
+    /* height: 80vh; */
 }
 
 .books
 {
     width: 70%;
-    /* height: 50vh; */
+    height: 50vh;
     margin-left: 15%;
     margin-top: 5%;
     

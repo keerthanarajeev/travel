@@ -20,6 +20,9 @@ body
     z-index: 10;
    
 }
+.navbar-nav li a:hover{
+    background-color: orangered;
+}
 .navbar{
 background-color: transparent;
 padding: 0;
@@ -41,11 +44,7 @@ padding: 0 10px;
     font-weight: 600;
     
 }
-.navbar-nav a:hover
-{
-    background-color: orangered;
-    border-radius: 7px;
-}
+
 
 
 .frontpage
@@ -561,7 +560,7 @@ margin-top: -10px;
     /* height: 50vh; */
     margin-left: 15%;
     margin-top: 5%;
-    
+    border-radius: 10px;
     background-color: rgb(34, 28, 41);
 }
 .books .b-heading
@@ -662,10 +661,11 @@ margin-top: -10px;
 
 @media (max-width: 600px)
 { 
-    .social ul{display: none;}
+    
     .home .card{font-size: 8px;}
     .frontpage{background-image: url(./images/responsive.png);}
     .about{height: auto;}
+    .social ul{display: none;}
     .about .boxes{display: none;}
     .heading .para{width: 60%;}
     .reviews{height: 130vh;}

@@ -654,16 +654,18 @@ margin-top: -10px;
 @media (max-width: 600px)
 { 
     .frontpage{background-image: url(./images/responsive.png);}
-    .about{height: 60vh;}
+    .about{height: 75vh;}
     .heading .para{width: 60%;}
     .reviews{height: 130vh;}
     .about .ab-img{ width: 100%; }
-    .about .abt-content{ width: 100%; }
+    .about .abt-content{ width: 100%; margin-top: 35%;}
     .about .abt-content a{margin-top: -10px;}
     .choose-us{height: 130vh;}
     .about .boxes{display: none;}
     .choose-location .loc-images{margin-left: 26%;}
-    .choose-location .loc-images #card4{display: none;}
+    .choose-location .loc-images 
+     #card4{display: none;}
+     #carddone{display: none;}
     .choose .choose-img{margin-top: 170%; margin-left: -38%;}
     .choose .choose-img #choose-1{width: 500px; height: 100px;}
     .choose .choose-img #choose-2{width: 500px; height: 100px;}
@@ -677,7 +679,7 @@ margin-top: -10px;
     .blogs{height: 150vh;}
     .blog .books{width: 70%; margin-left: 15%;}
     .books .b-heading{margin-top: 5%; padding-left: -60%;}
-    .books .call,.email{margin-left: 30%;}
+    .books .call,.email{display: none;}
     .footer{padding-top: 20%; height: auto;}
     .footer .heading{width: 69%;}
     .navbar-toggler-icon{background-color: orangered;}

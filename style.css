@@ -122,16 +122,11 @@ color: orangered;
 {
     font-size: 12px;
 }
-/* .home .heading .line
-{
-    width: 100px;
-    padding-top: -65%;
-    position: inherit;
-} */
+
 
 .home .box-content
 {
-padding-top: 3%;
+padding-top: 7%;
 margin-left: 15%;
 }
 .home .box-content .card-text{
@@ -147,11 +142,6 @@ margin-left: 15%;
 .home h1{
     font-weight: 550;
 }
-/* .home .box-content .row
-{
-    row-gap: 30px;
-
-} */
 
 
 .home .card p{
@@ -173,7 +163,7 @@ margin-left: 15%;
 .about .boxes
 {
     margin-left: 65%;
-    margin-top: 100%;
+    margin-top: 90%;
 }
 
 .about .boxes h5{
@@ -186,7 +176,7 @@ margin-left: 15%;
 .about .boxes .box1
 {
     background-color: rgb(20,20, 46);
-    width: 130%;
+    width: 150%;
     height: 100%;
     font-size: 12px;
     color: white;
@@ -204,13 +194,15 @@ margin-left: 15%;
     margin-left: 70px;
 }
 .about .abt-content{
-    padding-top: 40%;
+    padding-top: 30%;
     width: 50%;
     color: white;
 }
 
 .about .abt-content .abt{
     color: orangered;
+    
+
 }
 
 .about .abt-content p{
@@ -228,7 +220,7 @@ margin-left: 15%;
     font-size: 12px;
     width: 120px;
     height: 35px;
-    margin-top: 10%;
+    margin-top: 1%;
 }
 .about .abt-content a:hover
 {
@@ -403,7 +395,7 @@ width: 100%;
 .choose .choose-img
 {   width: 30%;
     margin-left: -10%;
-    margin-top: 10%;
+    margin-top: 5%;
     
 }
 
@@ -661,38 +653,35 @@ margin-top: -10px;
 
 @media (max-width: 600px)
 { 
-    
-    .home .card{font-size: 8px;}
     .frontpage{background-image: url(./images/responsive.png);}
-    .about{height: auto;}
-    .social ul{display: none;}
-    .about .boxes{display: none;}
+    .about{height: 60vh;}
     .heading .para{width: 60%;}
     .reviews{height: 130vh;}
-    .about .abt-img{display: none;}
-    .about .abt-content{margin-left: -65%; width: 100%; margin-top: 150px;}
+    .about .ab-img{ width: 100%; }
+    .about .abt-content{ width: 100%; }
     .about .abt-content a{margin-top: -10px;}
     .choose-us{height: 130vh;}
-    .choose-location span{margin-right: -300px;}
+    .about .boxes{display: none;}
     .choose-location .loc-images{margin-left: 26%;}
     .choose-location .loc-images #card4{display: none;}
-    .package .pckg #cardnone{display: none;}
     .choose .choose-img{margin-top: 170%; margin-left: -38%;}
     .choose .choose-img #choose-1{width: 500px; height: 100px;}
     .choose .choose-img #choose-2{width: 500px; height: 100px;}
     .choose .choose-content .guid{width: 100%;}
     .packages{height: 150vh;}
-    .package{padding-top: 200px;}
+    .package{padding-top: 50px;}
+    .reviews{height: 100vh;}
     .review .review-1{width: 70%; margin-left: 15%;}
     .review .review-heading{margin-top: 10%; width: 70%;}
     .books .booking{ margin-left: -20%; }
     .blogs{height: 150vh;}
     .blog .books{width: 70%; margin-left: 15%;}
-    .books .b-heading{margin-top: 5%; padding-left: -30%;}
-    .books .call,.email{display: none;}
+    .books .b-heading{margin-top: 5%; padding-left: -60%;}
+    .books .call,.email{margin-left: 30%;}
     .footer{padding-top: 20%; height: auto;}
     .footer .heading{width: 69%;}
     .navbar-toggler-icon{background-color: orangered;}
+    
     
     
 }
